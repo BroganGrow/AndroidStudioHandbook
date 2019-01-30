@@ -2,7 +2,7 @@
 步骤如下：
 1. [下载JDK、AS](#下载JDK、AS)
 2. [安装JDK](#安装JDK)
-3. [配置SDK的环境](#配置SDK的环境)
+3. [安装Android Studio](#安装Android Studio)
 4. [安装Android Studio](#安装Android Studio)
 
 ###  下载JDK、AS
@@ -124,7 +124,7 @@
 
 ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/javac.png)
 
-###  安装Android Studio （3.2.0）
+###  安装Android Studio 
 
 * 安装的欢迎页面，下一步
 
