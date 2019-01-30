@@ -21,73 +21,90 @@ Android项目结构换成project；不知道如何设置项目的字体大小和
 * 不定期更新AS的文章
 ## 目录
 * Android Studio 简介
-	* Android Studio 开发环境搭建 （推荐指数*****）
-	* 搭建多版本共存的Android Studio
-	* 工作区中文提示
-	* 创建应用
-	* 目录结构
-* 偏好设置
-	* 界面风格、字体
-	* Log显示设置
-	* 显示代码行号
-	* 设置鼠标悬浮提示
-	* 自动导包、删除无用包
-	* 文档编码格式
-	* 恢复工作区间默认设置
-	* 重启AS默认打开内容
-	* 类注释
-	* 显示缩进空格
-	* 默认文件编码格式
-	* 关闭/打开，自动检测AS版本更新
-	* BookMark工具
-	* TODO 提示
-* 常用工具
-	* 快速定位当前页面在项目中的位置
-	* 快速回退、前进
-	* .9图片
-* 常用快捷键
-	* 自定义快捷键
-	* 常用快捷键
-* 优秀插件
-	* GsonFormat 格式化json数据
-	* ADBWIFI 真机ADB WiFi调试
-	* Sexy Editor 设置工作区的背景
-	* AndroidButterKnife 配合ButterKnife框架使用 
-* 调试
-	* debug 调试
-	* 打印 Log
-* 项目完整流程
-	* 完整项目
-		* 创建项目
-		* 导入项目
-		* 创建library
-		* 导入library
-		* 合并项目
-		* AS 2.x 升级到 3.x
-	* 单元测试
-	* 混淆
-	* 签名
-	* 打包
-		* Android App Bundle
-		* 传统apk打包
-		* 多渠道打包
-		* 运行自动签名 （微信登录之类需要）
-	* 发布
-* VCS版本控制系统
-	* Git
-		* 内置
-		* 外置
-	* SVN
-		* 内置
-		* 外置
-*  Gradle
-* 常见问题解决
-		* 整个项目代码报错（引入红色），但仍可正常运行解决方法
-		* Android Studio R文件爆红但是项目可以运行
-		https://blog.csdn.net/hx7013/article/details/79971980
-		https://blog.csdn.net/losingcarryjie/article/details/79489403
 
-	
+  * 系统要求
+  * Android Studio 开发环境搭建 （推荐指数*****）
+  * 搭建多版本共存的Android Studio
+  * 工作区中文提示
+  * 创建应用
+  * 目录结构
+
+* 偏好设置
+  * 界面风格、字体
+  * Log显示设置
+  * 显示代码行号
+  * 设置鼠标悬浮提示
+  * 自动导包、删除无用包
+  * 文档编码格式
+  * 恢复工作区间默认设置
+  * 重启AS默认打开内容
+  * 类注释
+  * 显示缩进空格
+  * 默认文件编码格式
+  * 关闭/打开，自动检测AS版本更新
+  * BookMark工具
+  * TODO 提示
+
+* 常用工具
+  * 快速定位当前页面在项目中的位置
+  * 快速回退、前进
+  * .9图片
+
+* 常用快捷键
+  * 自定义快捷键
+  * 常用快捷键
+
+* 优秀插件
+  * GsonFormat 格式化json数据
+  * ADBWIFI 真机ADB WiFi调试
+  * Sexy Editor 设置工作区的背景
+  * AndroidButterKnife 配合ButterKnife框架使用 
+
+* 调试
+  * debug 调试
+  * 打印 Log
+
+* 项目完整流程
+  * 完整项目
+  	* 创建项目
+  	* 导入项目
+  	* 创建library
+  	* 导入library
+  	* 合并项目
+  	* AS 2.x 升级到 3.x
+  * 单元测试
+  * 混淆
+  * 签名
+  * 打包
+  	* Android App Bundle
+  	* 传统apk打包
+  	* 多渠道打包
+  	* 运行自动签名 （微信登录之类需要）
+  * 发布
+
+* VCS版本控制系统
+  * Git
+  	* 内置
+  	* 外置
+  * SVN
+  	* 内置
+  	* 外置
+
+* Gradle
+
+* 常见问题解决
+   * 整个项目代码报错（引入红色），但仍可正常运行解决方法
+     * Android Studio R文件爆红但是项目可以运行
+       https://blog.csdn.net/hx7013/article/details/79971980
+       https://blog.csdn.net/losingcarryjie/article/details/79489403
+
+ * 拓展
+
+    * 上传项目到bintrary
+
+   
+
+   
 
 ### 参考
 https://github.com/bxiaopeng/AndroidStudio

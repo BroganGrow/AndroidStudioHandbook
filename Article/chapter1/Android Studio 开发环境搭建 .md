@@ -1,13 +1,13 @@
 # Android Studio 开发环境搭建
 步骤如下：
-1. [下载最新版的JDK、AS3.2.0版本](###下载最新版的JDK、AS3.2.0版本)
-2. [安装JDK](###安装JDK)
-3. [配置SDK的环境](###配置SDK的环境)
-4. [安装Android Studio](###安装Android Studio)
+1. [下载JDK、AS](#下载JDK、AS)
+2. [安装JDK](#安装JDK)
+3. [配置SDK的环境](#配置SDK的环境)
+4. [安装Android Studio](#安装Android Studio)
 
-###  下载最新版的JDK、AS3.2.0版本
+###  下载JDK、AS
 
-#### JDK下载地址
+#### JDK下载
 
 * 官网站:https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
@@ -19,7 +19,13 @@
 
   或者直接下载我本人百度云上的JDK文件
 
-#### AS3.2.0下载地址
+#### AS下载
+
+* 官方下载地址：https://developer.android.google.cn/studio/
+
+  目前最新版是3.2.1
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/最新版3.2.1.png)
 
 - Android Studio 中文社区：http://www.android-studio.org/
 
@@ -71,32 +77,32 @@
 
 ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/复制jdk路径.png)
 
-1. 配置JAVA_HOME 
+#### 配置JAVA_HOME 
 
-   变量名：JAVA_HOME       
+变量名：JAVA_HOME       
 
-   变量值：JDK安装目录（我们这里是：C:\Java\jdk1.8.0_202）
+变量值：JDK安装目录（我们这里是：C:\Java\jdk1.8.0_202）
 
-   ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/新建JAVA_HOME.png)
+![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/新建JAVA_HOME.png)
 
-1. 配置CLASSPATH
+#### 配置CLASSPATH
 
-   变量名：CLASSPATH
+变量名：CLASSPATH
 
-   变量值：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;
+变量值：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;
 
-   注意：上面的开头别写漏一个"."符号,和最后的分号";"
+注意：上面的开头别写漏一个"."符号,和最后的分号";"
 
-   ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/添加classpath.png)
+![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/添加classpath.png)
 
-1. 编辑path
+#### 编辑path
 
-   变量名：path
-   变量值：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+变量名：path
+变量值：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
 
-   先选择Path进行编辑，弹窗后选择编辑文本，再确认
+先选择Path进行编辑，弹窗后选择编辑文本，再确认
 
-   ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/编辑path1.png)
+![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/编辑path1.png)
 
 ​    在最后追加，再确认
 
@@ -118,5 +124,64 @@
 
 ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/javac.png)
 
-###  安装Android Studio
+###  安装Android Studio （3.2.0）
 
+* 安装的欢迎页面，下一步
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/安装的欢迎页面.png)
+
+* 选择AS的组件，默认选上Android手机模拟器
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/选择AS组件.png)
+
+  * 配置设置，为了方便，重新设置路径
+
+    ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/修改配置设置.png)
+
+    *  创建AS的桌面快捷方式，默认需要
+
+      ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/创建软件快捷.png)
+
+* 安装完成，启动
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/安装完成.png)
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/启动AS.png)
+
+  * 是否需要导入以前AS的配置设置，默认不需要，进入加载（如果之前用AS有保存settings的可以导入）
+
+    ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/是否需要导入以前AS的配置设置.png)
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/加载中.png)
+
+* 无法访问android sdk插件列表
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/无法访问android sdk插件列表.png)
+
+* 我选择cancel ，进入到了安装向导，下一步
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/安装向导.png)
+
+* 为android studio选择您想要的设置类型
+
+![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/为android studio选择您想要的设置类型.png)
+
+* 选择UI的主题，推荐极客黑
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/ui主题.png)
+
+* SDK 组件安装，修改SDK的路径
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/sdk组件安装.png)
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/修改SDK路径.png)
+
+* 下载组件，完成关闭掉
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/下载组件.png)
+
+* 启动欢迎页面
+
+  ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/启动欢迎页面.png)
+
+* 地方
