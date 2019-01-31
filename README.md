@@ -20,10 +20,9 @@ Android项目结构换成project；不知道如何设置项目的字体大小和
 * 同步更新AS新版本的特性
 * 不定期更新AS的文章
 ## 目录
-* Android Studio 简介
-
-  * 系统要求
-  * Android Studio 开发环境搭建 （推荐指数*****）
+* [第1章 Android Studio 起步](https://github.com/Brain-RD/AndroidStudioPracticalHandbook/tree/master/Article/%E7%AC%AC1%E7%AB%A0%20Android%20Studio%20%E8%B5%B7%E6%AD%A5)
+  * [系统要求](AndroidStudioPracticalHandbook/Article/第1章 Android Studio 起步/系统要求.md)
+  * [Android Studio 开发环境搭建](AndroidStudioPracticalHandbook/Article/第1章 Android Studio 起步/Android Studio 开发环境搭建 .md) 
   * 搭建多版本共存的Android Studio
   * 工作区中文提示
   * 创建应用
