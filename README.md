@@ -13,6 +13,7 @@ Android项目结构换成project；不知道如何设置项目的字体大小和
 快捷键有所差别。
 ```
 ## 手册特点
+
 * 作为实用手册，侧重在于实用，有些过于偏僻的功能可能不会介绍到
 * 主要解决As工作环境的问题，而非教导如何编程的。
 * 追求利用手册更加有效率的解决问题
@@ -21,82 +22,81 @@ Android项目结构换成project；不知道如何设置项目的字体大小和
 * 不定期更新AS的文章
 
 ## 目录
-- [第1章 Android Studio 起步]()
-	- [1.1 Android Studio简介](/Article/第1章-AndroidStudio起步/1.1-AndroidStudio简介.md)
-	- [1.2 系统要求](/Article/第1章-AndroidStudio起步/1.2-系统要求.md)
-  	- [1.3 Android Studio开发环境搭建](/Article/第1章-AndroidStudio起步/1.3-AndroidStudio开发环境搭建.md) 
-	- 搭建多版本共存的Android Studio
-	- 工作区中文提示
-		- 大幅度
-		- 地方地方
-	- 创建应用
+
+* [第1章 Android Studio 起步](/Article/第1章-AndroidStudio起步/1.1-AndroidStudio简介.md)
+	* [1.1 Android Studio简介](/Article/第1章-AndroidStudio起步/1.1-AndroidStudio简介.md)
+	* [1.2 系统要求](/Article/第1章-AndroidStudio起步/1.2-系统要求.md)
+  	* [1.3 Android Studio开发环境搭建](/Article/第1章-AndroidStudio起步/1.3-AndroidStudio开发环境搭建.md) 
+	* 搭建多版本共存的Android Studio
+	* 工作区中文提示
+		* 大幅度
+		* 地方地方
+	* 创建应用
 		* 大幅度
 		* 对方打开
-	- 目录结构
-	
+	* 目录结构
 * 偏好设置
-  * 界面风格、字体
-  * Log显示设置
-  * 显示代码行号
-  * 设置鼠标悬浮提示
-  * 自动导包、删除无用包
-  * 文档编码格式
-  * 恢复工作区间默认设置
-  * 重启AS默认打开内容
-  * 类注释
-  * 显示缩进空格
-  * 默认文件编码格式
-  * 关闭/打开，自动检测AS版本更新
-  * BookMark工具
-  * TODO 提示
+	* 界面风格、字体
+	* Log显示设置
+	* 显示代码行号
+	* 设置鼠标悬浮提示
+	* 自动导包、删除无用包
+	* 文档编码格式
+	* 恢复工作区间默认设置
+	* 重启AS默认打开内容
+	* 类注释
+	* 显示缩进空格
+	* 默认文件编码格式
+	* 关闭/打开，自动检测AS版本更新
+	* BookMark工具
+	* TODO 提示
 * 常用工具
-  * 快速定位当前页面在项目中的位置
-  * 快速回退、前进
-  * .9图片
+	* 快速定位当前页面在项目中的位置
+	* 快速回退、前进
+	* .9图片
 * 常用快捷键
-  * 自定义快捷键
-  * 常用快捷键
+	* 自定义快捷键
+	* 常用快捷键
 * 优秀插件
-  * GsonFormat 格式化json数据
-  * ADBWIFI 真机ADB WiFi调试
-  * Sexy Editor 设置工作区的背景
-  * AndroidButterKnife 配合ButterKnife框架使用 
+	* GsonFormat 格式化json数据
+	* ADBWIFI 真机ADB WiFi调试
+	* Sexy Editor 设置工作区的背景
+	* AndroidButterKnife 配合ButterKnife框架使用 
 * 调试
-  * debug 调试
-  * 打印 Log
+	* debug 调试
+	* 打印 Log
 * 项目完整流程
-  * 完整项目
+	* 完整项目
   	* 创建项目
   	* 导入项目
   	* 创建library
   	* 导入library
   	* 合并项目
   	* AS 2.x 升级到 3.x
-  * 单元测试
-  * 混淆
-  * 签名
-  * 打包
-  	* Android App Bundle
-  	* 传统apk打包
-  	* 多渠道打包
+	* 单元测试
+	* 混淆
+	* 签名
+	* 打包
+		* Android App Bundle
+		* 传统apk打包
+		* 多渠道打包
   	* 运行自动签名 （微信登录之类需要）
-  * 发布
+	* 发布
 * VCS版本控制系统
-  * Git
-  	* 内置
-  	* 外置
-  * SVN
-  	* 内置
-  	* 外置
+	* Git
+		* 内置
+		* 外置
+	* SVN
+		* 内置
+		* 外置
 * Gradle
 * 常见问题解决
    * 整个项目代码报错（引入红色），但仍可正常运行解决方法
-     * Android Studio R文件爆红但是项目可以运行
-       https://blog.csdn.net/hx7013/article/details/79971980
-       https://blog.csdn.net/losingcarryjie/article/details/79489403
-
- * 拓展
-    * 上传项目到bintrary
+		* Android Studio R文件爆红但是项目可以运行
+		* https://blog.csdn.net/hx7013/article/details/79971980
+		* https://blog.csdn.net/losingcarryjie/article/details/79489403	
+* 拓展
+	* 上传项目到bintrary
 
 ### 参考
 https://github.com/bxiaopeng/AndroidStudio
