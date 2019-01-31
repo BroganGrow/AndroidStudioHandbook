@@ -23,9 +23,9 @@ Android项目结构换成project；不知道如何设置项目的字体大小和
 
 ## 目录
 * [第1章 Android Studio 起步](#测试)
-  * [系统要求](/Article/第1章-Android Studio-起步/系统要求.md)
-  * [Android Studio 开发环境搭建](AndroidStudioPracticalHandbook/Article/第1章 Android Studio 起步/Android Studio 开发环境搭建.md) 
-  * [搭建多版本共存的Android Studio](https://github.com/Brain-RD/AndroidStudioPracticalHandbook/blob/master/Article/%E7%AC%AC1%E7%AB%A0%20Android%20Studio%20%E8%B5%B7%E6%AD%A5/Android%20Studio%20%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
+  * [系统要求](https://github.com/Brain-RD/AndroidStudioPracticalHandbook/blob/master/Article/%E7%AC%AC1%E7%AB%A0-AndroidStudio%E8%B5%B7%E6%AD%A5/%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82.md)
+  * [Android Studio 开发环境搭建](/Article/第1章-AndroidStudio起步/AndroidStudio开发环境搭建.md) 
+  * [搭建多版本共存的Android Studio]()
   * 工作区中文提示
   * 创建应用
   * 目录结构
