@@ -21,10 +21,11 @@ Android项目结构换成project；不知道如何设置项目的字体大小和
 * 不定期更新AS的文章
 
 ## 目录
-* 第1章 Android Studio 起步 
-	 *[1.1 Android Studio简介](/Article/第1章-AndroidStudio起步/1.1-AndroidStudio简介)
+
+* 第1章 Android Studio 起步
+	* [1.1 Android Studio简介](/Article/第1章-AndroidStudio起步/1.1-AndroidStudio简介)
 	* [1.2 系统要求](/Article/第1章-AndroidStudio起步/1.2-系统要求)
-  	* [1.3 Android Studio 开发环境搭建](/Article/第1章-AndroidStudio起步/1.3-AndroidStudio开发环境搭建.md) 
+  	* [1.3 Android Studio开发环境搭建](/Article/第1章-AndroidStudio起步/1.3-AndroidStudio开发环境搭建.md) 
   * 搭建多版本共存的Android Studio
   * 工作区中文提示
   * 创建应用
