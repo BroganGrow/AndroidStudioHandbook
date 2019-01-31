@@ -19,11 +19,10 @@ Android项目结构换成project；不知道如何设置项目的字体大小和
 * 以图文为主，代码为辅
 * 同步更新AS新版本的特性
 * 不定期更新AS的文章
-### 第1章 Android Studio 起步
 
 ## 目录
 * [第1章 Android Studio 起步](#测试)
-  * [系统要求](https://github.com/Brain-RD/AndroidStudioPracticalHandbook/blob/master/Article/%E7%AC%AC1%E7%AB%A0-AndroidStudio%E8%B5%B7%E6%AD%A5/%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82.md)
+  * [系统要求](AndroidStudioPracticalHandbook/Article/第1章-AndroidStudio起步/系统要求.md)
   * [Android Studio 开发环境搭建](/Article/第1章-AndroidStudio起步/AndroidStudio开发环境搭建.md) 
   * [搭建多版本共存的Android Studio]()
   * 工作区中文提示
@@ -102,13 +101,6 @@ Android项目结构换成project；不知道如何设置项目的字体大小和
  * 拓展
 
     * 上传项目到bintrary
-# 测试
-* [第1章 Android Studio 起步](#第1章-Android-Studio-起步)
-
-
-
-
-
 
 ### 参考
 https://github.com/bxiaopeng/AndroidStudio
