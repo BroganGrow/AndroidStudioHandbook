@@ -1,11 +1,11 @@
 # Android Studio 开发环境搭建
 步骤如下：
-1. [下载JDK、AS](#下载JDK、AS)
+1. [下载JDK\AS](#下载JDK\\AS)
 2. [安装JDK](#安装JDK)
 3. [配置JDK 、JAVA的环境](#配置JDK 、JAVA的环境)
 4. [安装Android Studio](#安装Android-Studio)
 
-###  下载JDK、AS
+###  下载JDK\\AS
 
 #### JDK下载
 
