@@ -103,7 +103,7 @@ Android项目结构换成project；不知道如何设置项目的字体大小和
 
     * 上传项目到bintrary
 # 测试
-* [头部](#第1章-Android-Studio-起步)
+* [头部](#第1章 Android-Studio 起步)
 
 
 
