@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <title>Android Studio 开发环境搭建</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'HelveticaNeue-Light', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+    </head>
+    <body>
+        <h1 id="android-studio-开发环境搭建">Android Studio 开发环境搭建</h1>
+<ul>
+<li><a href="#android-studio-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA">Android Studio 开发环境搭建</a>
+<ul>
+<li><a href="#1%E4%B8%8B%E8%BD%BDjdkas">1.下载JDK、AS</a>
+<ul>
+<li><a href="#11jdk%E4%B8%8B%E8%BD%BD">1.1.JDK下载</a></li>
+<li><a href="#12as%E4%B8%8B%E8%BD%BD">1.2.AS下载</a></li>
+<li><a href="#13%E7%99%BE%E5%BA%A6%E4%BA%91%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD">1.3.百度云资源下载</a></li>
+</ul>
+</li>
+<li><a href="#2%E5%AE%89%E8%A3%85jdk">2.安装JDK</a></li>
+<li><a href="#3%E9%85%8D%E7%BD%AEjdk%E5%8F%8Ajava%E7%9A%84%E7%8E%AF%E5%A2%83">3.配置JDK及JAVA的环境</a>
+<ul>
+<li><a href="#31%E9%85%8D%E7%BD%AEjava_home">3.1.配置JAVA_HOME</a></li>
+<li><a href="#32%E9%85%8D%E7%BD%AEclasspath">3.2.配置CLASSPATH</a></li>
+<li><a href="#33%E7%BC%96%E8%BE%91path">3.3.编辑path</a></li>
+<li><a href="#34%E6%A3%80%E6%9F%A5java%E7%8E%AF%E5%A2%83">3.4.检查Java环境</a></li>
+</ul>
+</li>
+<li><a href="#4%E5%AE%89%E8%A3%85android-studio">4.安装Android Studio</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="1下载jdkas">1.下载JDK、AS</h3>
+<h4 id="11jdk下载">1.1.JDK下载</h4>
+<ul>
+<li>
+<p>官网站:<a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a></p>
+<p>同意协议后，下载相应版本的JDK</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%E7%9A%84jdk.png" alt=""></p>
+</li>
+</ul>
+<h4 id="12as下载">1.2.AS下载</h4>
+<ul>
+<li>
+<p>官方下载地址：<a href="https://developer.android.google.cn/studio/">https://developer.android.google.cn/studio/</a></p>
+<p>目前最新版是3.2.1</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%9C%80%E6%96%B0%E7%89%883.2.1.png" alt=""></p>
+</li>
+<li>
+<p>Android Studio 中文社区:<a href="http://www.android-studio.org/">http://www.android-studio.org/</a></p>
+<p>目前最新版是3.2.0，可以直接下载</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/AS%E7%BD%91%E5%9D%80%E4%B8%8B%E8%BD%BD.png" alt=""></p>
+</li>
+</ul>
+<h4 id="13百度云资源下载">1.3.百度云资源下载</h4>
+<p>为了统一方便下载，以上所有资源都可在我的百度盘里下载（如果链接失效，可以及时Issues我）
+<a href="https://pan.baidu.com/s/1exQ3CdCH_wRnmCdRBpYq4g">https://pan.baidu.com/s/1exQ3CdCH_wRnmCdRBpYq4g</a></p>
+<h3 id="2安装jdk">2.安装JDK</h3>
+<ul>
+<li>
+<p>安装jdk-8u202-windows-x64.exe</p>
+<p>为了方便后续操作，这里修改为C:\Java\jdk1.8.0_202\，确定后继续下一步</p>
+</li>
+</ul>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E4%BF%AE%E6%94%B9jdk%E8%B7%AF%E5%BE%84.png" alt=""></p>
+<ul>
+<li>直接确认，继续下一步</li>
+</ul>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/jdk%E7%A1%AE%E8%AE%A4.png" alt=""></p>
+<ul>
+<li>新建一个java文件夹后，选择该文件，确认</li>
+</ul>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%96%B0%E5%BB%BAjava%E6%96%87%E4%BB%B6%E5%A4%B9.png" alt=""></p>
+<ul>
+<li>下一步</li>
+</ul>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%96%B0%E5%BB%BAjava%E5%90%8E.png" alt=""></p>
+<ul>
+<li>直接关闭即可，无需进行后续步骤</li>
+</ul>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%85%B3%E9%97%AD.png" alt=""></p>
+<h3 id="3配置jdk及java的环境">3.配置JDK及JAVA的环境</h3>
+<ul>
+<li>
+<p>打开计算机的属性</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%89%93%E5%BC%80%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B1%9E%E6%80%A7.png" alt=""></p>
+</li>
+<li>
+<p>打开环境变量</p>
+</li>
+</ul>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%89%93%E5%BC%80%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.png" alt=""></p>
+<ol>
+<li>复制jdk的路径，也就是我们前面安装jdk时设置的路径</li>
+</ol>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%A4%8D%E5%88%B6jdk%E8%B7%AF%E5%BE%84.png" alt=""></p>
+<h4 id="31配置java_home">3.1.配置JAVA_HOME</h4>
+<p>变量名：JAVA_HOME</p>
+<p>变量值：JDK安装目录（我们这里是：C:\Java\jdk1.8.0_202）</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%96%B0%E5%BB%BAJAVA_HOME.png" alt=""></p>
+<h4 id="32配置classpath">3.2.配置CLASSPATH</h4>
+<p>变量名：CLASSPATH</p>
+<p>变量值：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar;</p>
+<p>注意：上面的开头别写漏一个&quot;.&quot;符号,和最后的分号&quot;;&quot;</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%B7%BB%E5%8A%A0classpath.png" alt=""></p>
+<h4 id="33编辑path">3.3.编辑path</h4>
+<p>变量名：path
+变量值：;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;</p>
+<p>先选择Path进行编辑，弹窗后选择编辑文本，再确认</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E7%BC%96%E8%BE%91path1.png" alt=""></p>
+<p>​    在最后追加，再确认</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/path%E8%BF%BD%E5%8A%A0.png" alt=""></p>
+<p>最后再确认下，别白忙活</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%9C%80%E5%90%8E%E7%A1%AE%E8%AE%A4.png" alt=""></p>
+<h4 id="34检查java环境">3.4.检查Java环境</h4>
+<p>键盘快捷 Win+R，打开“运行”，输入cmd</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%90%8C%E6%97%B6win%E5%8A%A0r.png" alt=""></p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E8%BE%93%E5%85%A5cmd.png" alt=""></p>
+<p>输入javac或者java，如出现下面的详细信息则说明java环境已经配置好了</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/javac.png" alt=""></p>
+<h3 id="4安装android-studio">4.安装Android Studio</h3>
+<ul>
+<li>
+<p>安装的欢迎页面，下一步</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%AE%89%E8%A3%85%E7%9A%84%E6%AC%A2%E8%BF%8E%E9%A1%B5%E9%9D%A2.png" alt=""></p>
+</li>
+<li>
+<p>选择AS的组件，默认选上Android手机模拟器</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E9%80%89%E6%8B%A9AS%E7%BB%84%E4%BB%B6.png" alt=""></p>
+<ul>
+<li>
+<p>配置设置，为了方便，重新设置路径</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E8%AE%BE%E7%BD%AE.png" alt=""></p>
+<ul>
+<li>创建AS的桌面快捷方式，默认需要</li>
+</ul>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%88%9B%E5%BB%BA%E8%BD%AF%E4%BB%B6%E5%BF%AB%E6%8D%B7.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li>
+<p>安装完成，启动</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90.png" alt=""></p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%90%AF%E5%8A%A8AS.png" alt=""></p>
+<ul>
+<li>
+<p>是否需要导入以前AS的配置设置，默认不需要，进入加载（如果之前用AS有保存settings的可以导入）</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%98%AF%E5%90%A6%E9%9C%80%E8%A6%81%E5%AF%BC%E5%85%A5%E4%BB%A5%E5%89%8DAS%E7%9A%84%E9%85%8D%E7%BD%AE%E8%AE%BE%E7%BD%AE.png" alt=""></p>
+</li>
+</ul>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%8A%A0%E8%BD%BD%E4%B8%AD.png" alt=""></p>
+</li>
+<li>
+<p>无法访问android sdk插件列表</p>
+<p>![](<a href="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AEandroid">https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/无法访问android</a> sdk插件列表.png)</p>
+</li>
+<li>
+<p>我选择cancel ，进入到了安装向导，下一步</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%AE%89%E8%A3%85%E5%90%91%E5%AF%BC.png" alt=""></p>
+</li>
+<li>
+<p>为android studio选择您想要的设置类型</p>
+</li>
+</ul>
+<p>![](<a href="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E4%B8%BAandroid">https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/为android</a> studio选择您想要的设置类型.png)</p>
+<ul>
+<li>
+<p>选择UI的主题，推荐极客黑</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/ui%E4%B8%BB%E9%A2%98.png" alt=""></p>
+</li>
+<li>
+<p>SDK 组件安装，修改SDK的路径</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/sdk%E7%BB%84%E4%BB%B6%E5%AE%89%E8%A3%85.png" alt=""></p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E4%BF%AE%E6%94%B9SDK%E8%B7%AF%E5%BE%84.png" alt=""></p>
+</li>
+<li>
+<p>下载组件，完成关闭掉</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E4%B8%8B%E8%BD%BD%E7%BB%84%E4%BB%B6.png" alt=""></p>
+</li>
+<li>
+<p>启动欢迎页面</p>
+<p><img src="https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/%E5%90%AF%E5%8A%A8%E6%AC%A2%E8%BF%8E%E9%A1%B5%E9%9D%A2.png" alt=""></p>
+</li>
+<li>
+<p>地方</p>
+</li>
+</ul>
+
+    </body>
+    </html>
