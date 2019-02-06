@@ -16,18 +16,15 @@
 
 ## 目录
 
-* [第1章 Android Studio 起步](/Article/第1章-AndroidStudio起步/1.1-AndroidStudio简介.md)
+* 第1章 Android Studio 起步
 	* [1.1 Android Studio简介](/Article/第1章-AndroidStudio起步/1.1-AndroidStudio简介.md)
 	* [1.2 系统要求](/Article/第1章-AndroidStudio起步/1.2-系统要求.md)
   	* [1.3 Android Studio开发环境搭建](/Article/第1章-AndroidStudio起步/1.3-AndroidStudio开发环境搭建.md) 
+    * [1.4-创建第一个项目应用](/Article/第1章-AndroidStudio起步/1.4-创建第一个项目应用)
 	* 搭建多版本共存的Android Studio
 	* 工作区中文提示
-		* 大幅度
-		* 地方地方
-	* 创建应用
-		* 大幅度
-		* 对方打开
 	* 目录结构
+	* 汉化补丁
 * 偏好设置
 	* 界面风格、字体
 	* Log显示设置
