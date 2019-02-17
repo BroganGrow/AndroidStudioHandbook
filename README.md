@@ -1,4 +1,4 @@
-![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/asnew.png)
+![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/mylogo.png)
 
 
 
