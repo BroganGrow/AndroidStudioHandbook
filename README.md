@@ -1,7 +1,5 @@
 ![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/finallogo.png)
 
-
-
 ## 前言
 从Eclipse转到AndroidStudio阵营已经好长一段时间了，同时也从一开始的陌生、格格不入，到后来的越发熟练自如地使用整个AS开发环境（由于篇幅较长,统一用As代替AndroidStudio)。不得不说，刚开始用AS的时候确实会遇到很多小问题，比如说：不知道如何把Android项目结构换成project；不知道如何设置项目的字体大小和风格；不知道如何使用As的快捷键（之前Eclipse的快捷键很多都无效了）等等。总的来说，这些其实都是一些很小的问题，但就是因为一些很小的问题，让你不得不百度找各种解决办法，当然了，百度后肯定是有答案的，可是呢，你花在其中的时间就会浪费很多了。
 
@@ -88,11 +86,7 @@
 		* 内置
 		* 外置
 * Gradle
-* 常见问题解决
-   * 整个项目代码报错（引入红色），但仍可正常运行解决方法
-		* Android Studio R文件爆红但是项目可以运行
-		* https://blog.csdn.net/hx7013/article/details/79971980
-		* https://blog.csdn.net/losingcarryjie/article/details/79489403	
+* Bulid 构建错误汇集
 * 拓展
 	* 上传项目到bintrary
 
