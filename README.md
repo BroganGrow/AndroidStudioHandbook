@@ -3,8 +3,10 @@
 
 
 
+[![api][apiSvg]][api]
+[![License][licenseSvg]][license]
 
-## [English]() | 中文
+## [English](README_EN.md) | 中文
 
 ## 前言
 从Eclipse转到AndroidStudio阵营已经好长一段时间了，同时也从一开始的陌生、格格不入，到后来的越发熟练自如地使用整个AS开发环境（由于篇幅较长,统一用As代替AndroidStudio)。不得不说，刚开始用AS的时候确实会遇到很多小问题，比如说：不知道如何把Android项目结构换成project；不知道如何设置项目的字体大小和风格；不知道如何使用As的快捷键（之前Eclipse的快捷键很多都无效了）等等。总的来说，这些其实都是一些很小的问题，但就是因为一些很小的问题，让你不得不百度找各种解决办法，当然了，百度后肯定是有答案的，可是呢，你花在其中的时间就会浪费很多了。
@@ -100,4 +102,30 @@
 https://github.com/bxiaopeng/AndroidStudio
 
 ## 更新日志
-[ChangeLog](/Article/ChangeLog.md)
+[ChangeLog](/ChangeLog.md)  
+[ChangeLog]([/ChangeLog.md](https://github.com/Brainbg/AndroidStudioHandbook/blob/master/ChangeLog.md))
+
+## License
+
+
+    Copyright 2017 Brainbg
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+<!-- 许可证 -->
+[licenseSvg]: https://img.shields.io/badge/License-Apache--2.0-brightgreen.svg
+[license]: https://github.com/Blankj/AndroidUtilCode/blob/master/LICENSE
+
+<!-- API -->
+[apiSvg]: https://img.shields.io/badge/API-19%2B-brightgreen.svg
+[api]: https://android-arsenal.com/api?level=19
