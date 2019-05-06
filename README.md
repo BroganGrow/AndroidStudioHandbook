@@ -86,7 +86,7 @@
 		* 内置
 		* 外置
 * Gradle
-* Bulid 构建错误汇集
+* [第11章 Bulid 构建错误汇集](/Article/第11章-Bulid 构建错误汇集/)
 * 拓展
 	* 上传项目到bintrary
 
