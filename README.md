@@ -86,7 +86,7 @@
 		* 内置
 		* 外置
 * Gradle
-* [第11章 Bulid 构建错误汇集](AndroidStudioHandbook/Article/第11章-Bulid-构建错误汇集/README.md)
+* [第11章 Bulid 构建错误汇集](/Article/第11章-Bulid构建错误汇集/README.md)
 * 拓展
 	* 上传项目到bintrary
 
