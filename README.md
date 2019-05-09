@@ -30,7 +30,6 @@
 - 同步更新AS新版本的特性
 - 不定期更新AS的文章
 ## 目录
-
 - [第1章 Android Studio 起步](/Article/第1章-AndroidStudio起步/README.md)
 - [第2章 Settings偏好设置](/Article/第2章-Settings偏好设置/README.md)
 - [第3章 File文件](/Article/第3章-File文件/README.md)
@@ -45,6 +44,7 @@
 - [第12章 Tools工具](/Article/第12章-Tools工具/README.md)
 - [第13章 VCS版本控制](/Article/第13章-VCS版本控制/README.md)
 - [第14章 Window窗口](/Article/第14章-Window窗口/README.md)
+- [第15章 Help帮助](/Article/第15章-Help帮助/README.md)
 - [第16章 Bulid构建错误汇集](/Article/第16章-Bulid构建错误汇集/README.md)
 - [第17章 AndroidStudio版本](/Article/第17章-AndroidStudio版本/README.md)
 
