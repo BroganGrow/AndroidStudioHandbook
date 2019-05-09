@@ -113,7 +113,7 @@ https://github.com/bxiaopeng/AndroidStudio
 [ChangeLog](/ChangeLog.md)  
 <!-- [ChangeLog]([/ChangeLog.md](https://github.com/Brainbg/AndroidStudioHandbook/blob/master/ChangeLog.md)) -->
 
-## License
+## 许可证
 
 
     Copyright 2017 Brainbg

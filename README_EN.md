@@ -8,16 +8,16 @@
 
 ## English | [中文](/README.md)
 
-## 前言
+## Preface
 
-## 手册特点
+## Feature
 
-## 目录
+## Catalogue
 
-## 参考资料
+## Reference
 https://github.com/bxiaopeng/AndroidStudio
 
-## 更新日志
+## ChangeLog
 [ChangeLog](/ChangeLog.md)  
 
 ## License
