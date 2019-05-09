@@ -124,8 +124,7 @@ https://github.com/bxiaopeng/AndroidStudio
 
 <!-- 许可证 -->
 [licenseSvg]: https://img.shields.io/badge/License-Apache--2.0-brightgreen.svg
-[license]: https://github.com/Blankj/AndroidUtilCode/blob/master/LICENSE
-
+[license]: https://github.com/Brainbg/AndroidStudioHandbook/blob/master/LICENSE
 <!-- API -->
 [apiSvg]: https://img.shields.io/badge/API-19%2B-brightgreen.svg
 [api]: https://android-arsenal.com/api?level=19
