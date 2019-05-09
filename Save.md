@@ -32,21 +32,56 @@
 ## 目录
 
 - [第1章 Android Studio 起步](/Article/第1章-AndroidStudio起步/README.md)
-- [第2章 Settings偏好设置](/Article/第2章-Settings偏好设置/README.md)
-- [第3章 File文件](/Article/第3章-File文件/README.md)
-- [第4章 Edit编辑](/Article/第4章-Edit编辑/README.md)
-- [第5章 View视图](/Article/第5章-View视图/README.md)
-- [第6章 Navigate导航](/Article/第6章-Navigate导航/README.md)
-- [第7章 Code代码](/Article/第7章-Code代码/README.md)
-- [第8章 Analyze分析](/Article/第8章-Analyze分析/README.md)
-- [第9章 Refactor重构](/Article/第9章-Refactor重构/README.md)
-- [第10章 Build构建](/Article/第10章-Build构建/README.md)
-- [第11章 Run运行](/Article/第11章-Run运行/README.md)
-- [第12章 Tools工具](/Article/第12章-Tools工具/README.md)
-- [第13章 VCS版本控制](/Article/第13章-VCS版本控制/README.md)
-- [第14章 Window窗口](/Article/第14章-Window窗口/README.md)
-- [第16章 Bulid构建错误汇集](/Article/第16章-Bulid构建错误汇集/README.md)
-- [第17章 AndroidStudio版本](/Article/第17章-AndroidStudio版本/README.md)
+- [第2章 偏好设置](/Article/第2章-偏好设置/README.md)
+- 导入
+  - 到出 jar文件 
+- 常用工具
+	- 快速定位当前页面在项目中的位置
+	- 快速回退、前进
+	- .9图片
+- 常用快捷键
+	- 自定义快捷键
+	- 常用快捷键
+- 优秀插件
+	- GsonFormat 格式化json数据
+	- ADBWIFI 真机ADB WiFi调试
+	- Sexy Editor 设置工作区的背景
+	- AndroidButterKnife 配合ButterKnife框架使用 
+- 调试
+	- debug 调试
+	- 打印 Log
+- 项目完整流程
+	- 完整项目
+  	- 创建项目
+  	- 导入项目
+  	- 创建library
+  	- 导入library
+  	- 合并项目
+  	- AS 2.x 升级到 3.x
+	- 单元测试
+	- 混淆
+	- 签名
+	- 打包
+		- Android App Bundle
+		- 传统apk打包
+		- 多渠道打包
+  	- 运行自动签名 （微信登录之类需要）
+	- 发布
+- VCS版本控制系统
+	- Git
+		- 内置
+		- 外置
+	- SVN
+		- 内置
+		- 外置
+- Gradle
+- [第11章 Bulid 构建错误汇集](/Article/第11章-Bulid构建错误汇集/README.md)
+- 拓展
+	- 上传项目到bintrary
+
+- AndroidStudio 版本更新
+
+
 
 
 #### 由于个人的精力有限，某些地方可能有写错的地方，欢迎大家在issue上指出好让我修改好！
