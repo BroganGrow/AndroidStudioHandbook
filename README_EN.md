@@ -6,7 +6,9 @@
 [![api][apiSvg]][api]
 [![License][licenseSvg]][license]
 
-## English | [中文](/README.md)
+##  [中文](/README.md) | English 
+
+## Suggestion
 
 ## Preface
 
