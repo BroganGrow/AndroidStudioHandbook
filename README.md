@@ -54,7 +54,7 @@
 https://github.com/bxiaopeng/AndroidStudio
 
 ## 更新日志
-[ChangeLog](/CHANGELOG.md)  
+[ChangeLog](/ChangLog.md)  
 
 ## 许可证
 

@@ -37,7 +37,7 @@
 https://github.com/bxiaopeng/AndroidStudio
 
 ## ChangeLog
-[ChangeLog](/CHANGELOG_EN.md)  
+[ChangeLog](/ChangLog_EN.md)  
 
 ## License
 
