@@ -49,7 +49,7 @@
 - [第17章 AndroidStudio版本](/Article/第17章-AndroidStudio版本/README.md)
 
 
-#### 由于个人的精力有限，某些地方可能有写错的地方，欢迎大家在issue上指出好让我修改好！
+#### 由于个人的精力有限，某些地方可能有写错的地方，欢迎大家在issue上指出！
 ## 参考资料
 https://github.com/bxiaopeng/AndroidStudio
 
