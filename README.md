@@ -47,9 +47,10 @@
 - [第15章 Help帮助](/Article/第15章-Help帮助/README.md)
 - [第16章 Bulid构建错误汇集](/Article/第16章-Bulid构建错误汇集/README.md)
 - [第17章 AndroidStudio版本](/Article/第17章-AndroidStudio版本/README.md)
+- [第18章 其它](/Article/第18章-其它/README.md)
 
 
-#### 由于个人的精力有限，某些地方可能有写错的地方，欢迎大家在issue上指出！
+#### 由于个人的精力有限，某些部分可能会出错，可在[issues]提出！
 ## 参考资料
 https://github.com/bxiaopeng/AndroidStudio
 
@@ -86,3 +87,5 @@ https://github.com/bxiaopeng/AndroidStudio
 <!-- API -->
 [apiSvg]: https://img.shields.io/badge/API-19%2B-brightgreen.svg
 [api]: https://android-arsenal.com/api?level=19
+
+[issues]: https://github.com/Brainbg/AndroidStudioHandbook/issues

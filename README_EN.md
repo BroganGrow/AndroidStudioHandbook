@@ -32,7 +32,7 @@
 - [Chapter 15 Help](/Article/第15章-Help帮助/README.md)
 - [Chapter 16 Bulid Error](/Article/第16章-Bulid构建错误汇集/README.md)
 - [Chapter 17 AndroidStudio Version](/Article/第17章-AndroidStudio版本/README.md)
-
+- [Chapter 18 Others](/Article/第18章-其它/README.md)
 ## Reference
 https://github.com/bxiaopeng/AndroidStudio
 
