@@ -52,7 +52,8 @@
 
 #### 由于个人的精力有限，某些部分可能会出错，可在[issues]提出！
 ## 参考资料
-https://github.com/bxiaopeng/AndroidStudio
+https://github.com/bxiaopeng/AndroidStudio   
+https://developer.android.google.cn/studio
 
 ## 更新日志
 [ChangeLog](/ChangLog.md)  
