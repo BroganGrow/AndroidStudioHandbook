@@ -1,5 +1,4 @@
-![](https://raw.githubusercontent.com/Brainbg/CloudPic/master/AndroidStudioHandbook/chapter1/%20finallogo.png)
-
+![][logo]
 
 
 
@@ -75,6 +74,9 @@ https://developer.android.google.cn/studio
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+[logo]: https://raw.githubusercontent.com/Brainbg/CloudPic/master/AndroidStudioHandbook/chapter1/%20finallogo.png
 
 <!-- 引用链接 -->
 <!-- Google Chrome浏览器 -->

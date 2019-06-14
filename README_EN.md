@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/Brainbg/CloudPic/master/AndroidStudioHandbook/chapter1/%20finallogo.png)
+![][logo]
 
 
 
@@ -57,9 +57,22 @@ https://github.com/bxiaopeng/AndroidStudio
     See the License for the specific language governing permissions and
     limitations under the License.
 
+
+<!-- 引用链接 -->
+
+[logo]: https://raw.githubusercontent.com/Brainbg/CloudPic/master/AndroidStudioHandbook/chapter1/%20finallogo.png
+
+<!-- Google Chrome浏览器 -->
+[Chrome]:https://www.google.cn/intl/zh-CN/chrome/
+<!-- Firefox浏览器 -->
+[Firefox]:http://www.firefox.com.cn/
+
 <!-- 许可证 -->
 [licenseSvg]: https://img.shields.io/badge/License-Apache--2.0-brightgreen.svg
 [license]: https://github.com/Brainbg/AndroidStudioHandbook/blob/master/LICENSE
+
 <!-- API -->
 [apiSvg]: https://img.shields.io/badge/API-19%2B-brightgreen.svg
 [api]: https://android-arsenal.com/api?level=19
+
+[issues]: https://github.com/Brainbg/AndroidStudioHandbook/issues
