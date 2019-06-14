@@ -1,4 +1,5 @@
-![](https://brian-1258565516.cos.ap-guangzhou.myqcloud.com/img/finallogo.png)
+![](https://raw.githubusercontent.com/Brainbg/CloudPic/master/AndroidStudioHandbook/chapter1/%20finallogo.png)
+
 
 
 
