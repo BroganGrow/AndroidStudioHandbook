@@ -1,0 +1,139 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "Article": {
+      "name": "Article",
+      "isOrdered": true,
+      "folders": {
+        "第10章-Build构建": {
+          "name": "第10章-Build构建",
+          "isOrdered": true,
+          "folders": {},
+          "files": {
+            "README": 0
+          }
+        },
+        "第11章-Run运行": {
+          "name": "第11章-Run运行",
+          "isOrdered": true,
+          "folders": {},
+          "files": {
+            "README": 0
+          }
+        },
+        "第12章-Tools工具": {
+          "name": "第12章-Tools工具",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第13章-VCS版本控制": {
+          "name": "第13章-VCS版本控制",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第14章-Window窗口": {
+          "name": "第14章-Window窗口",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第15章-Help帮助": {
+          "name": "第15章-Help帮助",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第16章-Bulid构建错误汇集": {
+          "name": "第16章-Bulid构建错误汇集",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第17章-AndroidStudio版本": {
+          "name": "第17章-AndroidStudio版本",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第18章-其它": {
+          "name": "第18章-其它",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第1章-AndroidStudio起步": {
+          "name": "第1章-AndroidStudio起步",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第2章-Settings偏好设置": {
+          "name": "第2章-Settings偏好设置",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第3章-File文件": {
+          "name": "第3章-File文件",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第4章-Edit编辑": {
+          "name": "第4章-Edit编辑",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第5章-View视图": {
+          "name": "第5章-View视图",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第6章-Navigate导航": {
+          "name": "第6章-Navigate导航",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第7章-Code代码": {
+          "name": "第7章-Code代码",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第8章-Analyze分析": {
+          "name": "第8章-Analyze分析",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "第9章-Refactor重构": {
+          "name": "第9章-Refactor重构",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        }
+      },
+      "files": {}
+    },
+    "img": {
+      "name": "img",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
+  "files": {
+    "ChangLog_EN": 0,
+    "模板": 1,
+    "ChangLog": 2,
+    "README_EN": 3,
+    "README": 4,
+    "Save": 5
+  }
+}
